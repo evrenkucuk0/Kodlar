@@ -11,11 +11,10 @@ int main(){
 		int q=b;
 		for(int j=0;j<n;j++){
 			int r=p+q;
-			printf("%d",p);
+			printf("%d,",p);
 			p=q;
 			q=r;
 	}
-	printf("\n");
 	int c=a+b;
 	a=b;
 	b=c;
