@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main(){
 	int n;
-	printf ("matrisin boyutunu giriniz");
+	printf ("dizi sayısını giriniz");
 	scanf("%d",&n);
 	int a;
 	int b;
