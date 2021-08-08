@@ -1,7 +1,7 @@
-//Algoritmayı oluşturamadım 
-// % işaretini sor 14. satır
+//AlgoritmayÄ± oluÅŸturamadÄ±m 
+// % iÅŸaretini sor 14. satÄ±r
 #include<stdio.h>
-int main( void ){
+int main (){
 	int sayi;
 	int yazilacak_rakam;
 
