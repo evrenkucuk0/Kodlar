@@ -1,8 +1,7 @@
-//4. dersin 2. sorusu yapılmadı
+//4. dersin 2. sorusu yapÄ±lmadÄ±
 
-//algoritmayı oluşturmak sıkıntı oluyo
-//bir örnekten sonra daha rahat oluyo algoritmayı
-//oluşturmak
+//algoritmayÄ± oluÅŸturmak sÄ±kÄ±ntÄ± oluyo
+
 #include<stdio.h>
 int main(){
 	int sayi_1,sayi_2,sayi_3;
