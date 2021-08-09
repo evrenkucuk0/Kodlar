@@ -8,11 +8,10 @@ int main(){
 	scanf("%d",&sayi);
 	if( sayi >= 0 ) {
 		for( i = sayi; i > 0; i-- ) {
-			faktoriyel *= i;//bu satýrda faktöriyel
-							//sayi koymak gerekmiyo mu
+			faktoriyel *= i;
 		}
 		printf("faktoriyel = %d\n",faktoriyel);
 	}
 	else
-		printf("hata: sayý 0'dan küçük olamaz!\n");
+		printf("hata: sayÃ½ 0'dan kÃ¼Ã§Ã¼k olamaz!\n");
 }
