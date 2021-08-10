@@ -1,5 +1,4 @@
-//Rand için 2. kütüphane eklendi
-// rastgele sayi seciyoruz sürekli 15 çıkması normal mi
+
 #include<stdio.h>
 #include<stdlib.h>
 int main(){
