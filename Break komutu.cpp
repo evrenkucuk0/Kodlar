@@ -10,5 +10,4 @@ int main(){
 printf("Toplam deneme sayisi: %d\n",deneme_sayisi);
 	
 }
-// rand satýrý hatalý diyo
-//nette baktým kütüphane deðiþ felan diyo
+
