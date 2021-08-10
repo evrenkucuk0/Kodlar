@@ -1,6 +1,4 @@
-//4. dersin 2. sorusu yapılmadı
 
-//algoritmayı oluşturmak sıkıntı oluyo
 
 #include<stdio.h>
 int main(){
