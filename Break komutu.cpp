@@ -1,4 +1,5 @@
 #include<stdio.h>
+#include<stdlib.h>
 int main(){
 	int i,tesadufi_sayi;
 	int deneme_sayisi=0;
