@@ -1,4 +1,4 @@
-// Murata for döngüsünün altýndaki iþlemlerin mantýðýný sor
+
 #include<stdio.h>
 int main() {
 	int a = 0;
