@@ -8,7 +8,7 @@ int main(){
 	scanf("%d",&sayi);
 	if( sayi >= 0 ) {
 		for( i = sayi; i > 0; i-- ) {
-			faktoriyel *= i;// bu işlemin mantığı tam olarak nasıl
+			faktoriyel *= i;
 		}
 		printf("faktoriyel = %d\n",faktoriyel);
 	}
