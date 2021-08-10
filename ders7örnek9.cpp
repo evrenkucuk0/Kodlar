@@ -11,5 +11,4 @@ int main( void ) {
 					printf("%5d%5d%5d\n", a, b, hipotenus);
 
 }	
-// b=a diyip h=b+1 e eþitlemenin amacý h'nin hem b'den hem de a'dan büyük olmasý gerektiði için mi
-//
+
