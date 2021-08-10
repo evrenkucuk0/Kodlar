@@ -2,18 +2,19 @@
 int main( void )
 {
 	int girilen_yas;
-	printf("Lütfen yaþýnýzý giriniz> ");
+	printf("LÃ¼tfen yaÅŸÄ±nÄ±zÄ± giriniz> ");
 	scanf("%d",&girilen_yas);
 	if( girilen_yas >= 18 && girilen_yas <= 65 ) 
-		printf("Girilen yaþ, 18 ile 65 arasýndadýr.\n");
-	//Girilen yaþ 18 ile 65 arasýnda deðilse, aþaðýdaki else 
-	//bloðu çalýþýr.
+		printf("Girilen yaÅŸ, 18 ile 65 arasÄ±ndadÄ±r.\n");
+	//Girilen yaÅŸ 18 ile 65 arasÄ±nda deÄŸilse, aÅŸaÄŸÄ±daki else 
+	//bloÄŸu Ã§alÄ±ÅŸÄ±r.
 	else {
-		//Girilen yaþ 18'den küçükse
-		if( girilen_yas < 18 )
-			printf("Girilen yaþ, 18'den küçüktür.\n");
-		//Girilen yaþ 65'ten büyükse
+		//Girilen yaÅŸ 18'den kÃ¼Ã§Ã¼kse
+		if( girilen_yas < 18 ){
+			printf("Girilen yaÅŸ, 18'den kÃ¼Ã§Ã¼ktÃ¼r.\n");
+		}
+		//Girilen yaÅŸ 65'ten bÃ¼yÃ¼kse
 		else
-			printf("Girilen yaþ, 65'ten büyüktür.\n");
+			printf("Girilen yaÅŸ, 65'ten bÃ¼yÃ¼ktÃ¼r.\n");
 	}
 }
