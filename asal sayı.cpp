@@ -10,9 +10,13 @@ int main(){
 			break;
 			}
 	}
-	if(flag==0)
+	if(flag==0){
+	
 		printf("sayi asal");
-	else
+	}
+	else{
+	
 	 	printf("sayi asal degil");
+	 }
 	 	
 }
