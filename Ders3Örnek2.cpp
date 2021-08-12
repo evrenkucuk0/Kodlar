@@ -10,7 +10,5 @@ int main(){
 	}
 	else
 	 printf("hata: sayı 0'a bolunemez\n");
-	
-	
-	//çalışmıyo hata ne
+
 }
