@@ -1,22 +1,21 @@
 #include<stdio.h>
+#include<conio.h>
 int main(){
-	int a,b;
-	scanf("%d",&b);
-	int flag=0;
-	for(a=1; a<b-1;a++){
-	
-		if(b%a==0){
-			flag=1;
-			
-			}
+	int sayi;
+	printf(" Asal olup olmadigini ogrenmek istediginiz sayiyi giriniz\n");
+	scanf("%d",&sayi);
+	bool isAsal =true ;
+	for(int i=2;i<sayi;i++)
+	{
+		if(sayi%i ==0){
+			printf("%d Sayisi asal degildir \n",sayi);
+			isAsal= false;
+			break;
+		}
 	}
-	if(flag==0){
-		printf("sayi asal ");
+	if(isAsal){
+		printf("%d Sayisi asal sayidir \n",sayi);
 	}
-	
-	else{
-		printf("sayi asal degil");
-	}
-	 	return 0;
-	 	
+	getch ();
+	return 0;
 }
