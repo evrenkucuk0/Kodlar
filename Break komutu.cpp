@@ -13,4 +13,3 @@ int main(){
 printf("Toplam deneme sayisi: %d\n",deneme_sayisi);
 	
 }
-
