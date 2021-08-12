@@ -1,8 +1,7 @@
 #include<stdio.h>
 int main(){
-	int sayi;
-	int i;
-	int faktoriyel = 1;
+	int i,sayi;
+	unsigned long long faktoriyel = 1;
 
 	printf("sayi giriniz> ");
 	scanf("%d",&sayi);
@@ -10,8 +9,12 @@ int main(){
 		for( i = sayi; i > 0; i-- ) {
 			faktoriyel *= i;
 		}
-		printf("faktoriyel = %d\n",faktoriyel);
+		printf("faktoriyel = %llu\n",faktoriyel);
 	}
-	else
-		printf("hata: sayý 0'dan küçük olamaz!\n");
+	else{
+	
+		printf("hata: sayi 0'dan küçük olamaz!\n");
 }
+	return faktoriyel;
+}
+
