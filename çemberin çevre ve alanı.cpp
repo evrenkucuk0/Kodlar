@@ -1,7 +1,7 @@
-//pi=3 olarak alýnacaktýr
+
 #include<stdio.h>
 int main(){
-	int pi=3;
+	float pi=3.14;
 	float r,cevre,alan;
 	
 	printf("Lutfen cemberin yaricapini giriniz");
